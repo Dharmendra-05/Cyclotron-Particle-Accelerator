@@ -1,5 +1,12 @@
 # Cyclotron Particle Accelerator Simulation
 
+> [!IMPORTANT]
+> **Repository Archived & Integrated into [Quantum-CLI](https://github.com/Dharmendra-05/Quantum-CLI)**  
+> This particle accelerator simulation suite has been merged into the unified **[Quantum-CLI](https://github.com/Dharmendra-05/Quantum-CLI)** project.  
+> All active development, enhanced precision algorithms, and cyclotron commands continue in the main CLI repository.  
+> 
+> *The full commit history of this repository has been permanently preserved in the `legacy/cyclotron` branch of Quantum-CLI.*
+
 A high-fidelity Python simulation of a **cyclotron particle accelerator**, demonstrating the principles of resonant acceleration and the motion of charged particles under the Lorentz force. This project provides publication-quality visualizations and thoroughly-documented physics code.
 
 ## Overview

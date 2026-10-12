@@ -5,7 +5,7 @@ Cyclotron Particle Accelerator Simulation
 A high-fidelity simulation of a cyclotron particle accelerator using the Lorentz force
 equations and resonant acceleration via alternating electric fields.
 
-Author: Physics Simulation Team
+Author: Dharmendra Pradhan
 Version: 1.0
 """
 

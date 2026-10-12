@@ -9,6 +9,10 @@ and physics exploration.
 from main import Cyclotron
 import numpy as np
 import matplotlib.pyplot as plt
+from pathlib import Path
+
+OUTPUT_DIR = Path(__file__).resolve().parent / "outputs"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def example_1_varying_magnetic_field():
@@ -49,7 +53,7 @@ def example_1_varying_magnetic_field():
     ax.set_title('Cyclotron: Magnetic Field vs. Final Energy', fontsize=14, fontweight='bold')
     ax.grid(True, alpha=0.3)
     plt.tight_layout()
-    plt.savefig('/mnt/user-data/outputs/example1_B_field_sweep.png', dpi=150)
+    plt.savefig(OUTPUT_DIR / 'example1_B_field_sweep.png', dpi=150)
     print("\n✓ Plot saved: example1_B_field_sweep.png\n")
 
 
@@ -91,7 +95,7 @@ def example_2_varying_gap_voltage():
     ax.set_title('Cyclotron: Gap Voltage vs. Final Energy', fontsize=14, fontweight='bold')
     ax.grid(True, alpha=0.3)
     plt.tight_layout()
-    plt.savefig('/mnt/user-data/outputs/example2_voltage_sweep.png', dpi=150)
+    plt.savefig(OUTPUT_DIR / 'example2_voltage_sweep.png', dpi=150)
     print("\n✓ Plot saved: example2_voltage_sweep.png\n")
 
 
@@ -141,7 +145,7 @@ def example_3_trajectory_comparison():
         print(f"v₀ = {v0:.0e} m/s  →  Final KE = {cyclotron.energy_profile[-1]:.3f} MeV")
     
     plt.tight_layout()
-    plt.savefig('/mnt/user-data/outputs/example3_velocity_comparison.png', dpi=150)
+    plt.savefig(OUTPUT_DIR / 'example3_velocity_comparison.png', dpi=150)
     print("\n✓ Plot saved: example3_velocity_comparison.png\n")
 
 
@@ -204,7 +208,7 @@ def example_4_physics_validation():
     ax2.grid(True, alpha=0.3)
     
     plt.tight_layout()
-    plt.savefig('/mnt/user-data/outputs/example4_energy_conservation.png', dpi=150)
+    plt.savefig(OUTPUT_DIR / 'example4_energy_conservation.png', dpi=150)
     print("\n✓ Plot saved: example4_energy_conservation.png\n")
 
 
@@ -219,5 +223,5 @@ if __name__ == '__main__':
     example_4_physics_validation()
     
     print("="*70)
-    print("All examples completed! Check /mnt/user-data/outputs/ for figures.")
+    print(f"All examples completed! Check {OUTPUT_DIR} for figures.")
     print("="*70 + "\n")

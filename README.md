@@ -151,8 +151,8 @@ The solver returns a continuous approximation of the solution. We evaluate it at
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/cyclotron-simulator.git
-   cd cyclotron-simulator
+   git clone https://github.com/Dharmendra-05/Cyclotron-Particle-Accelerator.git
+   cd Cyclotron-Particle-Accelerator
    ```
 
 2. **Install dependencies:**
@@ -237,15 +237,15 @@ CYCLOTRON SIMULATION SUMMARY
 ============================================================
 Magnetic Field:        1.500 T
 Gap Voltage:           50.0 kV
-Cyclotron Frequency:   22.9 MHz
+Cyclotron Frequency:   143.682 MHz
 Dee Radius:            50.0 cm
 ------------------------------------------------------------
-Initial Kinetic Energy: 0.0052 MeV
-Final Kinetic Energy:   12.45 MeV
-Energy Gain:            12.44 MeV
-Simulation Time:        2.134 μs
-Number of Revolutions:  48
-Final Orbital Radius:   49.8 cm
+Initial Kinetic Energy: 0.0000 MeV
+Final Kinetic Energy:   2.1940 MeV
+Energy Gain:            2.1940 MeV
+Simulation Time:        1.000 μs
+Number of Revolutions:  144
+Final Orbital Radius:   13.98 cm
 ============================================================
 ```
 
@@ -324,7 +324,7 @@ This project is released under the **MIT License** — see LICENSE file for deta
 
 ## Author
 
-Physics Simulation Team | v1.0 | 2024
+Dharmendra Pradhan | v1.0 | 2024
 
 ---
 
